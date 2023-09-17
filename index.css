@@ -1,0 +1,780 @@
+html{
+  scroll-behavior: smooth;
+ 
+
+}
+
+a {
+  color: var(--color-lightsteelblue-200);
+  text-decoration: none;
+}
+
+a:hover {
+  cursor:pointer;  
+}
+
+.about-nav,
+.experience-nav,
+.projects-nav,
+.contact-nav :hover{
+  cursor: pointer;
+}
+
+.full-website{
+  overflow: hidden !important;
+}
+
+.figma-project-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-100);
+  width: 21.75rem;
+  height: 24.88rem;
+  background-color: #116A7B;
+}
+.figma-community-profile,
+.this-is-my {
+  position: absolute;
+  top: 8.81rem;
+  left: 0;
+  line-height: 1.56rem;
+  display: inline-block;
+  width: 19.75rem;
+  height: 6.69rem;
+}
+.figma-community-profile {
+  top: 6.38rem;
+  font-size: var(--font-size-3xl);
+  color: var(--color-lightsteelblue-100);
+  height: 3.13rem;
+}
+.figma,
+.vector-icon {
+  position: absolute;
+  left: 0;
+}
+.vector-icon {
+  height: 10.3%;
+  width: 12.03%;
+  top: 3.14%;
+  right: 87.97%;
+  bottom: 86.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.figma {
+  top: 20.25rem;
+  font-size: var(--font-size-sm);
+  line-height: 1.56rem;
+  color: var(--color-silver-100);
+  display: inline-block;
+  width: 18.56rem;
+  height: 1.63rem;
+}
+.this-is-my-figma-community-pro-parent {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  width: 18.75rem;
+  height: 21.88rem;
+  overflow: hidden;
+}
+.comon-project,
+.figma-project,
+.persosite-project {
+  position: absolute;
+  top: 8.25rem;
+  width: 21.75rem;
+  height: 24.88rem;
+}
+.figma-project {
+  left: 0;
+}
+.comon-project,
+.persosite-project {
+  left: 25rem;
+}
+.persosite-project {
+  left: 49.56rem;
+}
+.comon-project1,
+.figma-project1,
+.persosite-project1 {
+  position: absolute;
+  top: 35.94rem;
+  width: 21.75rem;
+  height: 24.88rem;
+}
+.figma-project1 {
+  left: 0;
+}
+.comon-project1,
+.persosite-project1 {
+  left: 25rem;
+}
+.persosite-project1 {
+  left: 49.56rem;
+}
+.project-title-child {
+  position: absolute;
+  top: 0.84rem;
+  left: 17.59rem;
+  border-top: 1px dashed var(--color-aquamarine);
+  box-sizing: border-box;
+  width: 53.75rem;
+  height: 0.06rem;
+}
+.my-projects {
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.exp-txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.exp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 1.56rem;
+  display: flex;
+  align-items: center;
+  width: 17.19rem;
+  height: 1.69rem;
+}
+.project-title,
+.projects {
+  position: absolute;
+  left: 0;
+  width: 71.31rem;
+}
+.project-title {
+  top: 0;
+  height: 1.69rem;
+  font-size: var(--font-size-5xl);
+  color: var(--color-aquamarine);
+}
+.projects {
+  top: 170rem;
+  height: 60.81rem;
+  color: var(--color-lightsteelblue-200);
+}
+.caue-du-nord {
+  margin: 0;
+}
+.duration {
+  margin: 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-silver-200);
+}
+.caue-du-nord-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 24.69rem;
+  height: 1.69rem;
+  font-size: var(--font-size-sm);
+  color: var(--color-steelblue);
+}
+.caue-child,
+.caue-item {
+  position: absolute;
+  top: 3.83rem;
+  left: 1.34rem;
+  width: 0.28rem;
+  height: 0.22rem;
+}
+.caue-item-experience-1 {
+  position: absolute;
+  top: 8.9rem;
+  left: 1.34rem;
+  width: 0.28rem;
+  height: 0.22rem;
+}
+.communicate-and-work{
+  position: absolute;
+  top: 3.44rem;
+  left: 2.19rem;
+  display: inline-block;
+  width: 22.69rem;
+  height: 2.63rem;
+  top: 6.25rem;
+
+}
+
+.experience--1--1 {
+  position: absolute;
+  top: 3.44rem;
+  left: 2.19rem;
+  display: inline-block;
+  width: 22.69rem;
+  height: 2.63rem;
+}
+
+.experience--1--2 {
+  position: absolute;
+  top: 8.5rem;
+  left: 2.19rem;
+  display: inline-block;
+  width: 22.69rem;
+  height: 2.63rem;
+}
+
+.experience--2--1 {
+  position: absolute;
+  top: 3.44rem;
+  left: 2.19rem;
+  display: inline-block;
+  width: 22.69rem;
+  height: 10rem;
+}
+.experience--2--2 {
+  position: absolute;
+  top: 9.4rem;
+  left: 2.19rem;
+  display: inline-block;
+  width: 22.69rem;
+  height: 2.63rem;
+}
+
+.experience--3--1 {
+  position: absolute;
+  top: 3.44rem;
+  left: 2.19rem;
+  display: inline-block;
+  width: 22.69rem;
+  height: 2.63rem;
+}
+
+.caue {
+  position: absolute;
+  top: 10.13rem;
+  left: 3.81rem;
+  width: 24.88rem;
+  height: 8.88rem;
+}
+.junior-conseil-taker-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 29.63rem;
+  height: 1.69rem;
+  font-size: var(--font-size-sm);
+  color: var(--color-steelblue);
+}
+.taker-inner {
+  position: absolute;
+  top: 9.52rem;
+  left: 1.34rem;
+  width: 0.28rem;
+  height: 0.22rem;
+}
+.manage-multi-teams {
+  position: absolute;
+  top: 9.06rem;
+  left: 2.19rem;
+  display: inline-block;
+  width: 22.69rem;
+  height: 2.63rem;
+}
+.polygon-icon {
+  position: absolute;
+  top: 13.58rem;
+  left: 1.34rem;
+  width: 0.28rem;
+  height: 0.22rem;
+}
+.manage-multi-teams1 {
+  position: absolute;
+  top: 13.13rem;
+  left: 2.19rem;
+  display: inline-block;
+  width: 22.69rem;
+  height: 2.63rem;
+}
+.iim-paris,
+.taker,
+.work-with-a {
+  position: absolute;
+  top: 25rem;
+  left: 3.81rem;
+  width: 29.63rem;
+  height: 15.75rem;
+}
+.iim-paris,
+.work-with-a {
+  top: 40.75rem;
+  width: 24.88rem;
+  height: 8.88rem;
+}
+.work-with-a {
+  top: 9.06rem;
+  left: 2.19rem;
+  display: inline-block;
+  width: 22.69rem;
+  height: 6.5rem;
+}
+.traceparts {
+  position: absolute;
+  top: 50.75rem;
+  left: 3.81rem;
+  width: 24.88rem;
+  height: 15.56rem;
+}
+.your-company-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 28rem;
+  height: 1.69rem;
+}
+.lorem-ipsum-lorem {
+  position: absolute;
+  top: 3.44rem;
+  left: 2.19rem;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  display: inline-block;
+  width: 22.69rem;
+  height: 2.63rem;
+}
+.traceparts1 {
+  position: absolute;
+  top: 64.44rem;
+  left: 3.81rem;
+  width: 28rem;
+  height: 6.06rem;
+  font-size: var(--font-size-sm);
+  color: var(--color-gainsboro);
+}
+.roadmap-dot-child {
+  position: absolute;
+  top: 0.78rem;
+  left: 0.26rem;
+  background-color: var(--color-steelblue);
+  width: 0.74rem;
+  height: 0.74rem;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+}
+.roadmap-dot-inner,
+.roadmap-dot-item {
+  position: absolute;
+  box-sizing: border-box;
+}
+.roadmap-dot-item {
+  top: 0.78rem;
+  left: 0;
+  border: 2px solid var(--color-aquamarine);
+  width: 1.11rem;
+  height: 1.11rem;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+}
+.roadmap-dot-inner {
+  top: 2.22rem;
+  left: 0.78rem;
+  border-right: 1px dashed var(--color-aquamarine);
+  width: 0.06rem;
+  height: 12rem;
+}
+.rectangle-div,
+.roadmap-dot {
+  position: absolute;
+  top: 10.13rem;
+  left: 0.06rem;
+  width: 1.56rem;
+  height: 10.5rem;
+}
+.rectangle-div {
+  top: 0.69rem;
+  left: 0.26rem;
+  background-color: var(--color-steelblue);
+  width: 0.7rem;
+  height: 0.7rem;
+  transform: rotate(-41.57deg);
+  transform-origin: 0 0;
+}
+.line-div,
+.roadmap-dot-child1 {
+  position: absolute;
+  box-sizing: border-box;
+}
+.roadmap-dot-child1 {
+  top: 0.69rem;
+  left: 0;
+  border: 2px solid var(--color-aquamarine);
+  width: 1.04rem;
+  height: 1.04rem;
+  transform: rotate(-41.57deg);
+  transform-origin: 0 0;
+}
+.line-div {
+  top: 1.96rem;
+  left: 0.78rem;
+  border-right: 1px dashed var(--color-aquamarine);
+  width: 0.06rem;
+  height: 7.38rem;
+}
+.roadmap-dot1 {
+  position: absolute;
+  top: 40.75rem;
+  left: 0;
+  width: 1.56rem;
+  height: 9.31rem;
+}
+.roadmap-dot-child4 {
+  position: absolute;
+  top: 2.22rem;
+  left: 0.78rem;
+  border-right: 1px dashed var(--color-aquamarine);
+  box-sizing: border-box;
+  width: 0.06rem;
+  height: 10.81rem;
+}
+.line-icon {
+  position: absolute;
+  top: 50.75rem;
+  left: 0.06rem;
+  width: 1.56rem;
+  height: 13rem;
+}
+.line-icon {
+  top: 64.44rem;
+  height: 1.56rem;
+}
+.line-icon {
+  top: 2.25rem;
+  left: 0.69rem;
+  width: 0.13rem;
+  height: 16.38rem;
+}
+.exp-title-child,
+.roadmap-dot2 {
+  position: absolute;
+  top: 22rem;
+  left: 0.06rem;
+  width: 1.56rem;
+  height: 18.63rem;
+}
+.exp-title-child {
+  top: 0.84rem;
+  left: 20.97rem;
+  border-top: 1px dashed var(--color-aquamarine);
+  box-sizing: border-box;
+  width: 49.88rem;
+  height: 0.06rem;
+}
+.exp-title,
+.exp1 {
+  position: absolute;
+  top: 0;
+  height: 1.69rem;
+}
+.exp1 {
+  left: 0;
+  line-height: 1.56rem;
+  display: flex;
+  align-items: center;
+  width: 21rem;
+}
+.exp-title {
+  left: 0.06rem;
+  width: 70.81rem;
+  font-size: var(--font-size-5xl);
+  color: var(--color-aquamarine);
+}
+.experience {
+  position: absolute;
+  top: 112rem;
+  left: 0.44rem;
+  width: 70.88rem;
+  height: 70.5rem;
+  font-size: var(--font-size-xs);
+}
+.clr-aqua {
+  color: #FFC95F;
+}
+.where-my-major {
+  color: var(--color-white);
+}
+.hello-im-omkar-container {
+  position: absolute;
+  top: 2.13rem;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 42.13rem;
+  height: 44.38rem;
+}
+.about-child,
+.about-item {
+  position: absolute;
+  width: 22.81rem;
+  height: 25.38rem;
+}
+.about-child {
+  top: 9.13rem;
+  left: 48rem;
+  background-color: var(--color-aquamarine);
+}
+.about-item {
+  top: 8.5rem;
+  left: 47.31rem;
+}
+.about-title-child {
+  position: absolute;
+  top: 0.84rem;
+  left: 10.78rem;
+  border-top: 1px dashed var(--color-aquamarine);
+  box-sizing: border-box;
+  width: 59.38rem;
+  height: 0.06rem;
+}
+.about-title,
+.about1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.69rem;
+}
+.about1 {
+  line-height: 1.56rem;
+  display: flex;
+  align-items: center;
+  width: 14.69rem;
+}
+.about-title {
+  width: 70.13rem;
+  font-size: var(--font-size-5xl);
+  color: var(--color-aquamarine);
+}
+.about {
+  position: absolute;
+  top: 56.5rem;
+  left: 0.5rem;
+  width: 70.81rem;
+  height: 46.5rem;
+  font-size: var(--font-size-xl);
+}
+.welcome-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 20.75rem;
+  height: 1.75rem;
+}
+.im-a-reactjs {
+  margin: 0;
+  color: #9BE8D8;
+}
+.omkar-deshmukh-im-container,
+.im-a-software {
+  position: absolute;
+  left: 0;
+  font-family: var(--font-fjalla-one);
+  display: inline-block;
+}
+.omkar-deshmukh-im-container {
+  top: 3.06rem;
+  font-size: 4.13rem;
+  width: 43.94rem;
+  height: 15.75rem;
+  color: var(--color-lightsteelblue-100);
+}
+.im-a-software {
+  top: 17rem;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  width: 34.69rem;
+  height: 8.44rem;
+}
+
+.download-my-resume{
+  color: var(--color-steelblue)
+}
+.resume-child {
+  top: 0;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color-aquamarine);
+  box-sizing: border-box;
+}
+.download-my-resume,
+.resume,
+.resume-child {
+  position: absolute;
+  left: 0;
+  width: 12.63rem;
+  height: 3.19rem;
+}
+.download-my-resume {
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.resume {
+  top: 31rem;
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.hero-banner {
+  position: absolute;
+  top: 6.56rem;
+  left: 0.5rem;
+  width: 43.94rem;
+  height: 33.06rem;
+  font-size: 1rem;
+  color: var(--color-aquamarine);
+}
+.contact-form-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color-aquamarine);
+  box-sizing: border-box;
+}
+.contact-form,
+.contact-form-child,
+.hey {
+  position: absolute;
+  width: 9.06rem;
+  height: 3.19rem;
+}
+.hey {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hey:hover{
+  cursor: pointer;
+}
+.contact-form {
+  top: 17.31rem;
+  left: 31.13rem;
+  font-size: var(--font-size-sm);
+}
+.exp2,
+.im-always-looking {
+  line-height: 1.56rem;
+  display: flex;
+  align-items: center;
+}
+.im-always-looking {
+  position: absolute;
+  top: 3.63rem;
+  left: 11.56rem;
+  color: var(--color-lightsteelblue-100);
+  justify-content: center;
+  width: 48.88rem;
+  height: 15.31rem;
+}
+.exp2 {
+  top: 0;
+  left: 0;
+  height: 1.69rem;
+}
+.body,
+.contact,
+.exp2 {
+  position: absolute;
+  width: 71.31rem;
+}
+.contact {
+  top: 245rem;
+  left: 0;
+  height: 20.5rem;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-aquamarine);
+}
+.body {
+  top: 4.13rem;
+  left: 9.31rem;
+  height: 355.63rem;
+  overflow: hidden;
+  text-align: left;
+}
+.nav-bar-child {
+  position: absolute;
+  top: -0.03rem;
+  left: -0.03rem;
+  border: 0.5px solid var(--color-aquamarine);
+  box-sizing: border-box;
+  width: 90.06rem;
+  height: 4.19rem;
+}
+.propos-02-experience-container {
+  position: absolute;
+  top: 0;
+  left: 47.25rem;
+  line-height: 1.56rem;
+  display: flex;
+  align-items: center;
+  width: 34.13rem;
+  height: 4.13rem;
+}
+.nav-bar-text,
+.nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4.13rem;
+}
+.nav-bar-text {
+  font-size: 1.5rem;
+  line-height: 1.56rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 11rem;
+  padding-left: .5em;
+}
+.nav-bar {
+  width: 90rem;
+  font-size: 0.81rem;
+  color: var(--color-aquamarine);
+}
+.icon-india {
+  position: absolute;
+  height: 0.5%;
+  width: 2.24%;
+  top: 0.43%;
+  right: 4.56%;
+  bottom: 99.07%;
+  left: 93.19%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.v {
+  position: absolute;
+  top: 1.25rem;
+  left: 85.56rem;
+  line-height: 1.56rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.88rem;
+  height: 1.56rem;
+}
+.full-website {
+  position: relative;
+  background-color: #102C57;
+  width: 100%;
+  height: 275.88rem;
+  overflow-y: auto;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-fira-code);
+}
