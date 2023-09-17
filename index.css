@@ -1,7 +1,5 @@
 html{
   scroll-behavior: smooth;
- 
-
 }
 
 a {
@@ -17,6 +15,40 @@ a:hover {
 .experience-nav,
 .projects-nav,
 .contact-nav :hover{
+  cursor: pointer;
+}
+
+.source-url-btn-container{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position: absolute;
+  top: 15rem;
+  margin: auto
+}
+
+.source-btn, .site-btn{
+  height: 3rem;
+  width: 6rem;
+  color: var(--color-lightsteelblue-200);
+  background: none;
+  border: 1px solid var(--color-lightsteelblue-200);
+  font-size: var(--font-size-xs);
+  font-family: var(--font-fira-code);
+  font-weight: 100;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.source-btn:hover
+{
+  cursor: pointer;
+}
+.site-btn:hover
+{
   cursor: pointer;
 }
 
